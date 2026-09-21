@@ -14,7 +14,7 @@ _Illuminance at the recording arena or observation surface._
 
 
 
-URI: [bstm:illumination_illuminance](bstm:illumination_illuminance)
+URI: [BeStMeta:illumination_illuminance](https://w3id.org/BeStMeta/illumination_illuminance)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:illumination_illuminance](bstm:illumination_illuminance)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:illumination_illuminance](bstm:illumination_illuminance)
 | Property | Value |
 | --- | --- |
 | Range | [Float](Float.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -92,8 +92,8 @@ URI: [bstm:illumination_illuminance](bstm:illumination_illuminance)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:illumination_illuminance |
-| native | bstm:illumination_illuminance |
+| self | BeStMeta:illumination_illuminance |
+| native | BeStMeta:illumination_illuminance |
 | exact | OM:Illuminance |
 
 
@@ -117,7 +117,7 @@ exact_mappings:
 - OM:Illuminance
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: float
 required: false
 unit:

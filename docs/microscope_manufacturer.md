@@ -14,7 +14,7 @@ _Manufacturer of the microscope._
 
 
 
-URI: [bstm:microscope_manufacturer](bstm:microscope_manufacturer)
+URI: [BeStMeta:microscope_manufacturer](https://w3id.org/BeStMeta/microscope_manufacturer)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:microscope_manufacturer](bstm:microscope_manufacturer)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:microscope_manufacturer](bstm:microscope_manufacturer)
 | Property | Value |
 | --- | --- |
 | Range | [String](String.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:microscope_manufacturer](bstm:microscope_manufacturer)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:microscope_manufacturer |
-| native | bstm:microscope_manufacturer |
+| self | BeStMeta:microscope_manufacturer |
+| native | BeStMeta:microscope_manufacturer |
 | exact | OME:Manufacturer, schema:manufacturer |
 
 
@@ -92,7 +92,7 @@ exact_mappings:
 - schema:manufacturer
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: string
 required: false
 

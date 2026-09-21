@@ -14,7 +14,7 @@ _Free-text notes on hardware configuration not captured by structured fields._
 
 
 
-URI: [bstm:hardware_notes](bstm:hardware_notes)
+URI: [BeStMeta:hardware_notes](https://w3id.org/BeStMeta/hardware_notes)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:hardware_notes](bstm:hardware_notes)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:hardware_notes](bstm:hardware_notes)
 | Property | Value |
 | --- | --- |
 | Range | [String](String.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:hardware_notes](bstm:hardware_notes)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:hardware_notes |
-| native | bstm:hardware_notes |
+| self | BeStMeta:hardware_notes |
+| native | BeStMeta:hardware_notes |
 
 
 
@@ -89,7 +89,7 @@ description: Free-text notes on hardware configuration not captured by structure
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: string
 required: false
 

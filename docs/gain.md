@@ -14,7 +14,7 @@ _Camera gain setting at the time of recording._
 
 
 
-URI: [bstm:gain](bstm:gain)
+URI: [BeStMeta:gain](https://w3id.org/BeStMeta/gain)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:gain](bstm:gain)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:gain](bstm:gain)
 | Property | Value |
 | --- | --- |
 | Range | [String](String.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:gain](bstm:gain)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:gain |
-| native | bstm:gain |
+| self | BeStMeta:gain |
+| native | BeStMeta:gain |
 | exact | AFQ:0000201 |
 
 
@@ -91,7 +91,7 @@ exact_mappings:
 - AFQ:0000201
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: string
 required: false
 

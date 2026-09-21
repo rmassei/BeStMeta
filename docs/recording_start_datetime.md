@@ -14,7 +14,7 @@ _Date and time at which acquisition of the video recording began._
 
 
 
-URI: [bstm:recording_start_datetime](bstm:recording_start_datetime)
+URI: [BeStMeta:recording_start_datetime](https://w3id.org/BeStMeta/recording_start_datetime)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:recording_start_datetime](bstm:recording_start_datetime)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:recording_start_datetime](bstm:recording_start_datetime)
 | Property | Value |
 | --- | --- |
 | Range | [Datetime](Datetime.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -74,8 +74,8 @@ URI: [bstm:recording_start_datetime](bstm:recording_start_datetime)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:recording_start_datetime |
-| native | bstm:recording_start_datetime |
+| self | BeStMeta:recording_start_datetime |
+| native | BeStMeta:recording_start_datetime |
 
 
 
@@ -89,7 +89,7 @@ description: Date and time at which acquisition of the video recording began.
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: datetime
 required: false
 recommended: true

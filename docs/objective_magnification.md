@@ -14,7 +14,7 @@ _Magnification of microscope objective (if applicable)._
 
 
 
-URI: [bstm:objective_magnification](bstm:objective_magnification)
+URI: [BeStMeta:objective_magnification](https://w3id.org/BeStMeta/objective_magnification)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:objective_magnification](bstm:objective_magnification)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:objective_magnification](bstm:objective_magnification)
 | Property | Value |
 | --- | --- |
 | Range | [Float](Float.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -89,8 +89,8 @@ URI: [bstm:objective_magnification](bstm:objective_magnification)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:objective_magnification |
-| native | bstm:objective_magnification |
+| self | BeStMeta:objective_magnification |
+| native | BeStMeta:objective_magnification |
 
 
 
@@ -111,7 +111,7 @@ examples:
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: float
 required: false
 recommended: true

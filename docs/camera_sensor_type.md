@@ -14,7 +14,7 @@ _Image sensor technology._
 
 
 
-URI: [bstm:camera_sensor_type](bstm:camera_sensor_type)
+URI: [BeStMeta:camera_sensor_type](https://w3id.org/BeStMeta/camera_sensor_type)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:camera_sensor_type](bstm:camera_sensor_type)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:camera_sensor_type](bstm:camera_sensor_type)
 | Property | Value |
 | --- | --- |
 | Range | [CameraSensorTypeEnum](CameraSensorTypeEnum.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -74,8 +74,8 @@ URI: [bstm:camera_sensor_type](bstm:camera_sensor_type)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:camera_sensor_type |
-| native | bstm:camera_sensor_type |
+| self | BeStMeta:camera_sensor_type |
+| native | BeStMeta:camera_sensor_type |
 
 
 
@@ -89,7 +89,7 @@ description: Image sensor technology.
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: CameraSensorTypeEnum
 required: false
 recommended: true

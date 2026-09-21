@@ -14,7 +14,7 @@ _Total duration of the video recording in ISO 8601 duration format._
 
 
 
-URI: [bstm:recording_duration](bstm:recording_duration)
+URI: [BeStMeta:recording_duration](https://w3id.org/BeStMeta/recording_duration)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:recording_duration](bstm:recording_duration)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:recording_duration](bstm:recording_duration)
 | Property | Value |
 | --- | --- |
 | Range | [Duration](Duration.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -87,8 +87,8 @@ URI: [bstm:recording_duration](bstm:recording_duration)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:recording_duration |
-| native | bstm:recording_duration |
+| self | BeStMeta:recording_duration |
+| native | BeStMeta:recording_duration |
 | exact | AFR:0000951 |
 | close | schema:duration |
 
@@ -117,7 +117,7 @@ close_mappings:
 - schema:duration
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: duration
 required: true
 

@@ -14,7 +14,7 @@ _Serial number of the microscope._
 
 
 
-URI: [bstm:microscope_serial_number](bstm:microscope_serial_number)
+URI: [BeStMeta:microscope_serial_number](https://w3id.org/BeStMeta/microscope_serial_number)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:microscope_serial_number](bstm:microscope_serial_number)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:microscope_serial_number](bstm:microscope_serial_number)
 | Property | Value |
 | --- | --- |
 | Range | [String](String.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:microscope_serial_number](bstm:microscope_serial_number)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:microscope_serial_number |
-| native | bstm:microscope_serial_number |
+| self | BeStMeta:microscope_serial_number |
+| native | BeStMeta:microscope_serial_number |
 | exact | OME:SerialNumber |
 
 
@@ -91,7 +91,7 @@ exact_mappings:
 - OME:SerialNumber
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: string
 required: false
 

@@ -14,7 +14,7 @@ _Peak wavelength of the illumination source in nanometres. Use for non-white-lig
 
 
 
-URI: [bstm:illumination_wavelength](bstm:illumination_wavelength)
+URI: [BeStMeta:illumination_wavelength](https://w3id.org/BeStMeta/illumination_wavelength)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:illumination_wavelength](bstm:illumination_wavelength)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:illumination_wavelength](bstm:illumination_wavelength)
 | Property | Value |
 | --- | --- |
 | Range | [Float](Float.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -83,8 +83,8 @@ URI: [bstm:illumination_wavelength](bstm:illumination_wavelength)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:illumination_wavelength |
-| native | bstm:illumination_wavelength |
+| self | BeStMeta:illumination_wavelength |
+| native | BeStMeta:illumination_wavelength |
 | exact | AFR:0001159 |
 | close | PATO:0001242 |
 
@@ -105,7 +105,7 @@ close_mappings:
 - PATO:0001242
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: float
 required: false
 unit:

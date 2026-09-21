@@ -14,7 +14,7 @@ _Video compression codec used for recording._
 
 
 
-URI: [bstm:video_codec](bstm:video_codec)
+URI: [BeStMeta:video_codec](https://w3id.org/BeStMeta/video_codec)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:video_codec](bstm:video_codec)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:video_codec](bstm:video_codec)
 | Property | Value |
 | --- | --- |
 | Range | [VideoCodecEnum](VideoCodecEnum.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -80,8 +80,8 @@ URI: [bstm:video_codec](bstm:video_codec)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:video_codec |
-| native | bstm:video_codec |
+| self | BeStMeta:video_codec |
+| native | BeStMeta:video_codec |
 | exact | ebucore:codecName |
 
 
@@ -102,7 +102,7 @@ exact_mappings:
 - ebucore:codecName
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: VideoCodecEnum
 required: false
 recommended: true

@@ -14,7 +14,7 @@ _Microscope configuration according to the OME microscope type classification._
 
 
 
-URI: [bstm:microscope_type](bstm:microscope_type)
+URI: [BeStMeta:microscope_type](https://w3id.org/BeStMeta/microscope_type)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:microscope_type](bstm:microscope_type)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:microscope_type](bstm:microscope_type)
 | Property | Value |
 | --- | --- |
 | Range | [MicroscopeTypeEnum](MicroscopeTypeEnum.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:microscope_type](bstm:microscope_type)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:microscope_type |
-| native | bstm:microscope_type |
+| self | BeStMeta:microscope_type |
+| native | BeStMeta:microscope_type |
 | exact | OME:Type |
 
 
@@ -91,7 +91,7 @@ exact_mappings:
 - OME:Type
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: MicroscopeTypeEnum
 required: false
 

@@ -14,7 +14,7 @@ _File container format of the recorded video._
 
 
 
-URI: [bstm:video_container_format](bstm:video_container_format)
+URI: [BeStMeta:video_container_format](https://w3id.org/BeStMeta/video_container_format)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:video_container_format](bstm:video_container_format)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:video_container_format](bstm:video_container_format)
 | Property | Value |
 | --- | --- |
 | Range | [VideoContainerEnum](VideoContainerEnum.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -79,8 +79,8 @@ URI: [bstm:video_container_format](bstm:video_container_format)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:video_container_format |
-| native | bstm:video_container_format |
+| self | BeStMeta:video_container_format |
+| native | BeStMeta:video_container_format |
 | exact | ebucore:hasContainerFormat |
 
 
@@ -100,7 +100,7 @@ exact_mappings:
 - ebucore:hasContainerFormat
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: VideoContainerEnum
 required: true
 

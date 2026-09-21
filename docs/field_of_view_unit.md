@@ -14,7 +14,7 @@ _Unit of measurement for field_of_view_width and field_of_view_height._
 
 
 
-URI: [bstm:field_of_view_unit](bstm:field_of_view_unit)
+URI: [BeStMeta:field_of_view_unit](https://w3id.org/BeStMeta/field_of_view_unit)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:field_of_view_unit](bstm:field_of_view_unit)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:field_of_view_unit](bstm:field_of_view_unit)
 | Property | Value |
 | --- | --- |
 | Range | [LengthUnitEnum](LengthUnitEnum.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:field_of_view_unit](bstm:field_of_view_unit)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:field_of_view_unit |
-| native | bstm:field_of_view_unit |
+| self | BeStMeta:field_of_view_unit |
+| native | BeStMeta:field_of_view_unit |
 
 
 
@@ -88,7 +88,7 @@ description: Unit of measurement for field_of_view_width and field_of_view_heigh
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: LengthUnitEnum
 
 ```

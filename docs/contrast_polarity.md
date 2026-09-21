@@ -14,7 +14,7 @@ _Contrast relationship between the tracked object and the background; indicates 
 
 
 
-URI: [bstm:contrast_polarity](bstm:contrast_polarity)
+URI: [BeStMeta:contrast_polarity](https://w3id.org/BeStMeta/contrast_polarity)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:contrast_polarity](bstm:contrast_polarity)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:contrast_polarity](bstm:contrast_polarity)
 | Property | Value |
 | --- | --- |
 | Range | [ContrastPolarityEnum](ContrastPolarityEnum.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -74,8 +74,8 @@ URI: [bstm:contrast_polarity](bstm:contrast_polarity)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:contrast_polarity |
-| native | bstm:contrast_polarity |
+| self | BeStMeta:contrast_polarity |
+| native | BeStMeta:contrast_polarity |
 
 
 
@@ -91,7 +91,7 @@ description: Contrast relationship between the tracked object and the background
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: ContrastPolarityEnum
 required: false
 recommended: true

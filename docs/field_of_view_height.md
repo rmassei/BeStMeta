@@ -14,7 +14,7 @@ _Numeric value of vertical field of view covered by the camera._
 
 
 
-URI: [bstm:field_of_view_height](bstm:field_of_view_height)
+URI: [BeStMeta:field_of_view_height](https://w3id.org/BeStMeta/field_of_view_height)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:field_of_view_height](bstm:field_of_view_height)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:field_of_view_height](bstm:field_of_view_height)
 | Property | Value |
 | --- | --- |
 | Range | [Float](Float.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -74,8 +74,8 @@ URI: [bstm:field_of_view_height](bstm:field_of_view_height)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:field_of_view_height |
-| native | bstm:field_of_view_height |
+| self | BeStMeta:field_of_view_height |
+| native | BeStMeta:field_of_view_height |
 
 
 
@@ -89,7 +89,7 @@ description: Numeric value of vertical field of view covered by the camera.
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: float
 required: false
 recommended: true

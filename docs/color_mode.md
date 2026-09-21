@@ -14,7 +14,7 @@ _Color mode of the recorded video. Affects tracking algorithm behavior and file 
 
 
 
-URI: [bstm:color_mode](bstm:color_mode)
+URI: [BeStMeta:color_mode](https://w3id.org/BeStMeta/color_mode)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:color_mode](bstm:color_mode)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:color_mode](bstm:color_mode)
 | Property | Value |
 | --- | --- |
 | Range | [ColorModeEnum](ColorModeEnum.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:color_mode](bstm:color_mode)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:color_mode |
-| native | bstm:color_mode |
+| self | BeStMeta:color_mode |
+| native | BeStMeta:color_mode |
 
 
 
@@ -89,7 +89,7 @@ description: Color mode of the recorded video. Affects tracking algorithm behavi
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: ColorModeEnum
 required: false
 

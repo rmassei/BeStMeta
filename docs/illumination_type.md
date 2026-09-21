@@ -14,7 +14,7 @@ _Type of illumination used during recording._
 
 
 
-URI: [bstm:illumination_type](bstm:illumination_type)
+URI: [BeStMeta:illumination_type](https://w3id.org/BeStMeta/illumination_type)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:illumination_type](bstm:illumination_type)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:illumination_type](bstm:illumination_type)
 | Property | Value |
 | --- | --- |
 | Range | [IlluminationTypeEnum](IlluminationTypeEnum.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -74,8 +74,8 @@ URI: [bstm:illumination_type](bstm:illumination_type)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:illumination_type |
-| native | bstm:illumination_type |
+| self | BeStMeta:illumination_type |
+| native | BeStMeta:illumination_type |
 | exact | MIxS:0000769 |
 
 
@@ -92,7 +92,7 @@ exact_mappings:
 - MIxS:0000769
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: IlluminationTypeEnum
 required: false
 recommended: true

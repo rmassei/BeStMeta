@@ -14,7 +14,7 @@ _Total number of frames in the video. Can be derived from frame_rate × recordin
 
 
 
-URI: [bstm:total_frame_count](bstm:total_frame_count)
+URI: [BeStMeta:total_frame_count](https://w3id.org/BeStMeta/total_frame_count)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:total_frame_count](bstm:total_frame_count)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:total_frame_count](bstm:total_frame_count)
 | Property | Value |
 | --- | --- |
 | Range | [Integer](Integer.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -78,8 +78,8 @@ URI: [bstm:total_frame_count](bstm:total_frame_count)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:total_frame_count |
-| native | bstm:total_frame_count |
+| self | BeStMeta:total_frame_count |
+| native | BeStMeta:total_frame_count |
 | exact | dicom:NumberOfFrames |
 
 
@@ -100,7 +100,7 @@ exact_mappings:
 - dicom:NumberOfFrames
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: integer
 required: false
 

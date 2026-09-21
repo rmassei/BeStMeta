@@ -6,7 +6,7 @@ search:
 # Slot: lens_focal_length_mm 
 
 
-_Focal length of the imaging lens in millimetres;  applicable to camera or microscope optics when reported._
+_Focal length of the imaging lens in millimetres; applicable to camera or microscope optics when reported._
 
 
 
@@ -14,7 +14,7 @@ _Focal length of the imaging lens in millimetres;  applicable to camera or micro
 
 
 
-URI: [bstm:lens_focal_length_mm](bstm:lens_focal_length_mm)
+URI: [BeStMeta:lens_focal_length_mm](https://w3id.org/BeStMeta/lens_focal_length_mm)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:lens_focal_length_mm](bstm:lens_focal_length_mm)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:lens_focal_length_mm](bstm:lens_focal_length_mm)
 | Property | Value |
 | --- | --- |
 | Range | [Float](Float.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -84,8 +84,8 @@ URI: [bstm:lens_focal_length_mm](bstm:lens_focal_length_mm)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:lens_focal_length_mm |
-| native | bstm:lens_focal_length_mm |
+| self | BeStMeta:lens_focal_length_mm |
+| native | BeStMeta:lens_focal_length_mm |
 | exact | AFQ:0000062 |
 
 
@@ -96,14 +96,14 @@ URI: [bstm:lens_focal_length_mm](bstm:lens_focal_length_mm)
 <details>
 ```yaml
 name: lens_focal_length_mm
-description: Focal length of the imaging lens in millimetres;  applicable to camera
+description: Focal length of the imaging lens in millimetres; applicable to camera
   or microscope optics when reported.
 from_schema: https://w3id.org/bestmeta/schema
 exact_mappings:
 - AFQ:0000062
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: float
 required: false
 recommended: true

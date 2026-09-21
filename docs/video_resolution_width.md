@@ -14,7 +14,7 @@ _Horizontal pixel count of the recorded video._
 
 
 
-URI: [bstm:video_resolution_width](bstm:video_resolution_width)
+URI: [BeStMeta:video_resolution_width](https://w3id.org/BeStMeta/video_resolution_width)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:video_resolution_width](bstm:video_resolution_width)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:video_resolution_width](bstm:video_resolution_width)
 | Property | Value |
 | --- | --- |
 | Range | [Integer](Integer.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -84,8 +84,8 @@ URI: [bstm:video_resolution_width](bstm:video_resolution_width)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:video_resolution_width |
-| native | bstm:video_resolution_width |
+| self | BeStMeta:video_resolution_width |
+| native | BeStMeta:video_resolution_width |
 | close | ebucore:width |
 
 
@@ -102,7 +102,7 @@ close_mappings:
 - ebucore:width
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: integer
 required: true
 unit:

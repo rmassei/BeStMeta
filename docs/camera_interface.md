@@ -14,7 +14,7 @@ _Interface standard used for communication between the camera and the acquisitio
 
 
 
-URI: [bstm:camera_interface](bstm:camera_interface)
+URI: [BeStMeta:camera_interface](https://w3id.org/BeStMeta/camera_interface)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:camera_interface](bstm:camera_interface)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:camera_interface](bstm:camera_interface)
 | Property | Value |
 | --- | --- |
 | Range | [CameraInterfaceEnum](CameraInterfaceEnum.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -73,8 +73,8 @@ URI: [bstm:camera_interface](bstm:camera_interface)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:camera_interface |
-| native | bstm:camera_interface |
+| self | BeStMeta:camera_interface |
+| native | BeStMeta:camera_interface |
 
 
 
@@ -89,7 +89,7 @@ description: Interface standard used for communication between the camera and th
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: CameraInterfaceEnum
 required: false
 

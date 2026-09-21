@@ -14,7 +14,7 @@ _Number of frames captured per second (fps) during video recording._
 
 
 
-URI: [bstm:frame_rate](bstm:frame_rate)
+URI: [BeStMeta:frame_rate](https://w3id.org/BeStMeta/frame_rate)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:frame_rate](bstm:frame_rate)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:frame_rate](bstm:frame_rate)
 | Property | Value |
 | --- | --- |
 | Range | [Float](Float.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -84,8 +84,8 @@ URI: [bstm:frame_rate](bstm:frame_rate)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:frame_rate |
-| native | bstm:frame_rate |
+| self | BeStMeta:frame_rate |
+| native | BeStMeta:frame_rate |
 | exact | ebucore:frameRate |
 | close | ma:frameRate |
 
@@ -105,7 +105,7 @@ close_mappings:
 - ma:frameRate
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: float
 required: true
 unit:

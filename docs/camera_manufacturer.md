@@ -14,7 +14,7 @@ _Manufacturer of the camera._
 
 
 
-URI: [bstm:camera_manufacturer](bstm:camera_manufacturer)
+URI: [BeStMeta:camera_manufacturer](https://w3id.org/BeStMeta/camera_manufacturer)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:camera_manufacturer](bstm:camera_manufacturer)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:camera_manufacturer](bstm:camera_manufacturer)
 | Property | Value |
 | --- | --- |
 | Range | [String](String.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -74,8 +74,8 @@ URI: [bstm:camera_manufacturer](bstm:camera_manufacturer)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:camera_manufacturer |
-| native | bstm:camera_manufacturer |
+| self | BeStMeta:camera_manufacturer |
+| native | BeStMeta:camera_manufacturer |
 | exact | schema:manufacturer |
 
 
@@ -92,7 +92,7 @@ exact_mappings:
 - schema:manufacturer
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: string
 required: true
 

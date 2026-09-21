@@ -14,7 +14,7 @@ _Full manufacturer model name of the camera._
 
 
 
-URI: [bstm:camera_model](bstm:camera_model)
+URI: [BeStMeta:camera_model](https://w3id.org/BeStMeta/camera_model)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:camera_model](bstm:camera_model)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [VideoHardware](VideoHardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
+| [Hardware](Hardware.md) | Camera systems, optical configuration, and physical recording infrastructure ... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:camera_model](bstm:camera_model)
 | Property | Value |
 | --- | --- |
 | Range | [String](String.md) |
-| Domain Of | [VideoHardware](VideoHardware.md) |
+| Domain Of | [Hardware](Hardware.md) |
 
 ### Cardinality and Requirements
 
@@ -82,8 +82,8 @@ URI: [bstm:camera_model](bstm:camera_model)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:camera_model |
-| native | bstm:camera_model |
+| self | BeStMeta:camera_model |
+| native | BeStMeta:camera_model |
 
 
 
@@ -100,7 +100,7 @@ examples:
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- VideoHardware
+- Hardware
 range: string
 required: true
 

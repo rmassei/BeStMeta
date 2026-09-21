@@ -14,7 +14,7 @@ _Method or algorithm used to reduce image noise during acquisition or immediatel
 
 
 
-URI: [bstm:noise_reduction_method](bstm:noise_reduction_method)
+URI: [BeStMeta:noise_reduction_method](https://w3id.org/BeStMeta/noise_reduction_method)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:noise_reduction_method](bstm:noise_reduction_method)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:noise_reduction_method](bstm:noise_reduction_method)
 | Property | Value |
 | --- | --- |
 | Range | [String](String.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -74,8 +74,8 @@ URI: [bstm:noise_reduction_method](bstm:noise_reduction_method)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:noise_reduction_method |
-| native | bstm:noise_reduction_method |
+| self | BeStMeta:noise_reduction_method |
+| native | BeStMeta:noise_reduction_method |
 
 
 
@@ -90,7 +90,7 @@ description: Method or algorithm used to reduce image noise during acquisition o
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: string
 required: false
 recommended: true

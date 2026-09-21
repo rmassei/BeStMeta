@@ -14,7 +14,7 @@ _Bit depth per pixel channel of the recorded video._
 
 
 
-URI: [bstm:bit_depth](bstm:bit_depth)
+URI: [BeStMeta:bit_depth](https://w3id.org/BeStMeta/bit_depth)
 <!-- no inheritance hierarchy -->
 
 
@@ -25,7 +25,7 @@ URI: [bstm:bit_depth](bstm:bit_depth)
 
 | Name | Description | Modifies Slot |
 | --- | --- | --- |
-| [AcquisitionParameters](AcquisitionParameters.md) | Video acquisition and recording parameters |  no  |
+| [Acquisition](Acquisition.md) | Video acquisition and recording parameters, including timing encoding and ill... |  no  |
 
 
 
@@ -39,7 +39,7 @@ URI: [bstm:bit_depth](bstm:bit_depth)
 | Property | Value |
 | --- | --- |
 | Range | [Integer](Integer.md) |
-| Domain Of | [AcquisitionParameters](AcquisitionParameters.md) |
+| Domain Of | [Acquisition](Acquisition.md) |
 
 ### Cardinality and Requirements
 
@@ -85,8 +85,8 @@ URI: [bstm:bit_depth](bstm:bit_depth)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:bit_depth |
-| native | bstm:bit_depth |
+| self | BeStMeta:bit_depth |
+| native | BeStMeta:bit_depth |
 | exact | ebucore:bitDepth |
 
 
@@ -108,7 +108,7 @@ exact_mappings:
 - ebucore:bitDepth
 rank: 1000
 domain_of:
-- AcquisitionParameters
+- Acquisition
 range: integer
 required: false
 

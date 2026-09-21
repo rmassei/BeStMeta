@@ -9,13 +9,13 @@ search:
 
 
 
-_Commercial closed-box system used for recording and tracking the organism(s)  in a controlled environment._
+_Commercial closed-box system used for recording and tracking the organism(s) in a controlled environment._
 
 
 
 <div data-search-exclude markdown="1">
 
-URI: [bstm:ClosedBoxSystemEnum](bstm:ClosedBoxSystemEnum)
+URI: [BeStMeta:ClosedBoxSystemEnum](https://w3id.org/BeStMeta/ClosedBoxSystemEnum)
 
 ## Permissible Values
 | Value | Meaning | Description |
@@ -65,8 +65,8 @@ URI: [bstm:ClosedBoxSystemEnum](bstm:ClosedBoxSystemEnum)
 <details>
 ```yaml
 name: ClosedBoxSystemEnum
-description: Commercial closed-box system used for recording and tracking the organism(s)  in
-  a controlled environment.
+description: Commercial closed-box system used for recording and tracking the organism(s)
+  in a controlled environment.
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 permissible_values:

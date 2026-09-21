@@ -14,7 +14,7 @@ _Name of the software used for tracking._
 
 
 
-URI: [bstm:tracking_software_name](bstm:tracking_software_name)
+URI: [BeStMeta:tracking_software_name](https://w3id.org/BeStMeta/tracking_software_name)
 <!-- no inheritance hierarchy -->
 
 
@@ -45,7 +45,7 @@ URI: [bstm:tracking_software_name](bstm:tracking_software_name)
 
 | Property | Value |
 | --- | --- |
-| Recommended | Yes |
+| Required | Yes |
 
 
 
@@ -74,8 +74,8 @@ URI: [bstm:tracking_software_name](bstm:tracking_software_name)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:tracking_software_name |
-| native | bstm:tracking_software_name |
+| self | BeStMeta:tracking_software_name |
+| native | BeStMeta:tracking_software_name |
 | exact | AFR:0002802 |
 
 
@@ -94,8 +94,7 @@ rank: 1000
 domain_of:
 - TrackingAnalysis
 range: string
-required: false
-recommended: true
+required: true
 
 ```
 </details></div>

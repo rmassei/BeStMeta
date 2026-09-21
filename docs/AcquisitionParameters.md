@@ -14,7 +14,7 @@ _Video acquisition and recording parameters._
 
 
 
-URI: [bstm:AcquisitionParameters](bstm:AcquisitionParameters)
+URI: [BeStMeta:AcquisitionParameters](https://w3id.org/BeStMeta/AcquisitionParameters)
 
 
 
@@ -156,7 +156,7 @@ URI: [bstm:AcquisitionParameters](bstm:AcquisitionParameters)
 
 | Rule Applied | Preconditions | Postconditions | Elseconditions |
 |--------------|---------------|----------------|----------------|
-| slot_conditions |```{'video_codec': {'any_of': [{'equals_string': 'FFV1'}, {'equals_string': 'RAW'}]}}``` |```{'bit_depth': {'recommended': True}}``` | |
+| slot_conditions |```{'video_codec': {'any_of': [{'equals_string': 'ffv1'}, {'equals_string': 'raw'}]}}``` |```{'bit_depth': {'recommended': True}}``` | |
 
 
 
@@ -187,8 +187,8 @@ URI: [bstm:AcquisitionParameters](bstm:AcquisitionParameters)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:AcquisitionParameters |
-| native | bstm:AcquisitionParameters |
+| self | BeStMeta:AcquisitionParameters |
+| native | BeStMeta:AcquisitionParameters |
 
 
 
@@ -234,8 +234,8 @@ rules:
       video_codec:
         name: video_codec
         any_of:
-        - equals_string: FFV1
-        - equals_string: RAW
+        - equals_string: ffv1
+        - equals_string: raw
   postconditions:
     slot_conditions:
       bit_depth:
@@ -433,7 +433,7 @@ attributes:
     description: Camera sensor exposure time per frame.
     from_schema: https://w3id.org/bestmeta/schema
     exact_mappings:
-    - REPR:ExposureTime
+    - REPRODUCEME:ExposureTime
     rank: 1000
     owner: AcquisitionParameters
     domain_of:
@@ -565,8 +565,8 @@ rules:
       video_codec:
         name: video_codec
         any_of:
-        - equals_string: FFV1
-        - equals_string: RAW
+        - equals_string: ffv1
+        - equals_string: raw
   postconditions:
     slot_conditions:
       bit_depth:

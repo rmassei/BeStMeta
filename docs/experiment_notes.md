@@ -6,7 +6,7 @@ search:
 # Slot: experiment_notes 
 
 
-_Free-text notes on experimental conditions not captured by structured fields._
+_Free-text notes on the overall experimental conditions._
 
 
 
@@ -14,7 +14,7 @@ _Free-text notes on experimental conditions not captured by structured fields._
 
 
 
-URI: [bstm:experiment_notes](bstm:experiment_notes)
+URI: [BeStMeta:experiment_notes](https://w3id.org/BeStMeta/experiment_notes)
 <!-- no inheritance hierarchy -->
 
 
@@ -73,8 +73,8 @@ URI: [bstm:experiment_notes](bstm:experiment_notes)
 
 | Mapping Type | Mapped Value |
 | ---  | ---  |
-| self | bstm:experiment_notes |
-| native | bstm:experiment_notes |
+| self | BeStMeta:experiment_notes |
+| native | BeStMeta:experiment_notes |
 
 
 
@@ -84,8 +84,7 @@ URI: [bstm:experiment_notes](bstm:experiment_notes)
 <details>
 ```yaml
 name: experiment_notes
-description: Free-text notes on experimental conditions not captured by structured
-  fields.
+description: Free-text notes on the overall experimental conditions.
 from_schema: https://w3id.org/bestmeta/schema
 rank: 1000
 domain_of:
