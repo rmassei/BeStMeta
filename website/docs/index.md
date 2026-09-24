@@ -38,7 +38,7 @@ Use the navigation menu on the left to explore each class in detail.
 ## Reusing the schema
 
 The schema is written in [LinkML](https://linkml.io/). The canonical source
-lives in this repository under `schema/`. From it you can generate JSON Schema,
+lives in this repository as `bestmeta_schema.yaml`. From it you can generate JSON Schema,
 SHACL, OWL, Python classes, and more, using the standard LinkML generators.
 
 ---
@@ -46,3 +46,4 @@ SHACL, OWL, Python classes, and more, using the standard LinkML generators.
 *This documentation is generated automatically from the LinkML source. To edit
 this introduction, change `docs/index.md`. To restyle or rebrand the site, edit
 `site.config.yml`.*
+The content here needs to change, but can be done later
